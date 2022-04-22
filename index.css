@@ -1,0 +1,17 @@
+:root{
+    --primary:#ff8489;
+    --secondary:#d5adc8;
+}
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    background: linear-gradient(135deg, var(--primary),var(--secondary))
+   ;
+
+}   
